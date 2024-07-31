@@ -1,2 +1,2 @@
 # lab-agile-planning
-SE4R
+This repository contains the lab for agile planning course
