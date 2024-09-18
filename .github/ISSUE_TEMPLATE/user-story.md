@@ -7,17 +7,17 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** Store manager
+ **I need** a counter
+ **So that** I can keep track of stock
    
  ### Details and Assumptions
- * [document what you know]
+ * My store sells clothes and accepts returns.
    
- ### Acceptance Criteria  
+ ### Acceptance criteria
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given I have 5 shirts in stock
+ When Customer returns shirt
+ Then I have 6 shirts in stock
  ```
